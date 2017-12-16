@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Average', serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+}
+
+.navbar {
+    background-color: rgb(5, 0, 10);
+    box-shadow: 0 0 3px 0 #888888;
+    width: 100%;
+    z-index: 99;
+}
+
+nav p {
+    padding-left: 20px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: white;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding: 100px 0;
+    background-image: url("img/DN-HM-gXkAASLER-1.png"); 
+    background-size: cover;
+    width: 100%;
+}
+
+.description {
+    color: rgb(14, 15, 31);
+}
+
+.description h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.description p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+.aboutme {
+    background-color: rgb(14, 15, 31);
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.aboutme-text {
+    margin: auto;
+    width: 50%;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.aboutme-text h2 {
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+.aboutme-text p {
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+
+.contact {
+    padding: 100px 0;
+    background-image: url("img/DNyssv4UEAAaQCW-1.png");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
+.contact p {
+    margin: 0;
+    padding-top: 30px;
+}
+
+.socmed-icon {
+    padding:0 10px;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+}
+
+p > a:hover{
+    color: rgb(216, 216, 216);
+    transition-delay: 0.2s;
+}
+
+footer {
+    background-color: rgb(5, 0, 10);
+    color: white;
+    width: 100%;
+    height: 70px;
+}
+
+footer p {
+    margin: 0;
+    padding: 20px 0;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
+.bg-src {
+    text-decoration: none;
+    color: white;
+}
